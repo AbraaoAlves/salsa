@@ -1,6 +1,6 @@
 {
   "name": "salsa",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Bring typescript power for javascript projects",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,8 @@
   "author": "abraaoalves <abraao.teodosio@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "node ./lib/index.js -p ./sample/tsconfig.json"
+    "test": "node ./lib/index.js -p ./sample/tsconfig.json",
+    "postinstall": "tsc -p . && npm link ."
   },
   "dependencies": {
     "@types/node": "^7.0.5",

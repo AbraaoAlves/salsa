@@ -3,4 +3,4 @@
 'use strict';
 
 var path = require('path');
-require(path.resolve(__dirname, '..', 'lib');
+require(path.resolve(__dirname, '..', 'lib'));
