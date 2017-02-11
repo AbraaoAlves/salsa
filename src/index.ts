@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { main } from './main';
 import {check} from './tsc';
 import * as minimist from 'minimist';

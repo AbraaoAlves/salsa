@@ -1,8 +1,11 @@
 {
   "name": "salsa",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Bring typescript power for javascript projects",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "salsa": "bin/salsa"
+  },
   "repository": "https://github.com/abraaoalves/salsa.git",
   "author": "abraaoalves <abraao.teodosio@gmail.com>",
   "license": "MIT",
