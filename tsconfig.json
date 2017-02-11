@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+         "moduleResolution": "node",
+         "lib": [
+             "es2015"
+         ],
+        "sourceMap": true,
+        "outDir": "./lib/"
+        
+    },
+    "typeAcquisition": {
+        "enable": true,
+        "include": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules", "sample"
+    ]
+}
